@@ -355,6 +355,11 @@ button {
 
   }
 }
+.release {
+  @media screen and (max-width: 734px) {
+  font-size: 15px;
+  }
+}
 .wrap {
   position: relative;
 }

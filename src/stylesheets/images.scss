@@ -132,10 +132,7 @@
     transform: rotate(77deg);
   }
   @media screen and (max-width: 430px) {
-    right: -3rem;
-    position: absolute;
-    top: -6%;
-    width: 49%;
+display: none;
   }
 }
 .overprint5 {
@@ -144,11 +141,24 @@
   width: 40%;
   right: -7rem;
   top: 88rem;
+  @media screen and (max-width: 734px) {
+    width: 48%;
+    top: 50rem;
+  }
+  @media screen and (max-width: 430px) {
+    display: none;
+  }
 }
 .overprint6 {
   width: 22%;
   position: absolute;
   top: 20%;
+  @media screen and (max-width: 734px) {
+    display: none
+  }
+  @media screen and (max-width: 430px) {
+    display: none;
+  }
 }
 .overprint7 {
   position: absolute;
@@ -156,6 +166,12 @@
   width: 30%;
   bottom: 6%;
   transform: rotate(290deg);
+  @media screen and (max-width: 734px) {
+    display: none
+  }
+  @media screen and (max-width: 430px) {
+    display: none;
+  }
 }
 .overprint8 {
   position: absolute;
@@ -163,23 +179,46 @@
   transform: rotate(189deg);
   top: -17rem;
   z-index: -999;
+  @media screen and (max-width: 734px) {
+    top: -7rem;
+  }
 }
 .overprint9 {
   width: 43%;
   position: absolute;
   top: 55%;
   right: 0;
+  @media screen and (max-width: 734px) {
+    display: none;
+  }
+  @media screen and (max-width: 430px) {
+    display: none;
+  }
 }
 .overprint10 {
   position: absolute;
   bottom: 9%;
   width: 20%;
   left: 0;
+  @media screen and (max-width: 734px) {
+    bottom: 4%;
+    width: 43%;
+    transform: rotate(21deg);
+  }
+  @media screen and (max-width: 430px) {
+    display: none;
+  }
 }
 .overprint11 {
   position: absolute;
   top: -10rem;
   width: 36%;
+  @media screen and (max-width: 734px) {
+    top: -5rem;
+    width: 46%;
+    z-index: -22;
+    left: -3rem;
+  }
 }
 .overprint13 {
   z-index: -999;
@@ -187,6 +226,17 @@
   top: -65rem;
   width: 50%;
   left: -7rem;
+  @media screen and (max-width: 734px) {
+    top: -37rem;
+    left: -5rem;
+  }
+  @media screen and (max-width: 430px) {
+    width: 65%;
+    right: -1rem;
+    top: -15rem;
+    transform: rotate(157deg);
+    left: unset;
+  }
 }
 .overprint14 {
   z-index: -999;
@@ -194,6 +244,20 @@
   right: -11rem;
   top: -25rem;
   transform: rotate(316deg);
+  @media screen and (max-width: 734px) {
+    top: -14rem;
+    width: 53%;
+    right: -3rem;
+    transform: rotate(326deg);
+  }
+  @media screen and (max-width: 430px) {
+    width: 55%;
+    z-index: -999;
+    position: absolute;
+    left: -4rem;
+    top: -33rem;
+    transform: rotate(180deg);
+  }
 }
 
 .test-img {
